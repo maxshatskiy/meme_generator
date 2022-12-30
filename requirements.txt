@@ -1,40 +1,43 @@
-astroid @ file:///home/conda/feedstock_root/build_artifacts/astroid_1668904237582/work
-autopep8 @ file:///home/conda/feedstock_root/build_artifacts/autopep8_1671137333039/work
+astroid==2.12.13
+autopep8==2.0.1
 brotlipy==0.7.0
 certifi==2022.12.7
-cffi @ file:///tmp/abs_98z5h56wf8/croots/recipe/cffi_1659598650955/work
-charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1661170624537/work
-colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1666700638685/work
-cryptography @ file:///home/conda/feedstock_root/build_artifacts/cryptography_1669592186959/work
-dill @ file:///home/conda/feedstock_root/build_artifacts/dill_1666603105584/work
-flake8 @ file:///home/conda/feedstock_root/build_artifacts/flake8_1669396691980/work
-idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1663625384323/work
-isort @ file:///home/conda/feedstock_root/build_artifacts/isort_1671677246550/work
-lazy-object-proxy @ file:///home/conda/feedstock_root/build_artifacts/lazy-object-proxy_1666811991147/work
-lxml @ file:///home/conda/feedstock_root/build_artifacts/lxml_1671013460024/work
-mccabe @ file:///opt/conda/conda-bld/mccabe_1644221741721/work
-mypy @ file:///home/conda/feedstock_root/build_artifacts/mypy-split_1668483272429/work
-mypy-extensions @ file:///home/conda/feedstock_root/build_artifacts/mypy_extensions_1666794954266/work
-numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1671484982936/work
+cffi==1.15.1
+charset-normalizer==2.1.1
+colorama==0.4.6
+cryptography==38.0.4
+dill==0.3.6
+flake8==6.0.0
+idna==3.4
+isort==5.11.4
+lazy-object-proxy==1.8.0
+lxml==4.9.2
+mccabe==0.7.0
+mypy==0.991
+mypy-extensions==0.4.3
+numpy==1.24.0
 pandas==1.5.2
 Pillow==9.3.0
-platformdirs @ file:///home/conda/feedstock_root/build_artifacts/platformdirs_1672264874562/work
-psutil @ file:///home/conda/feedstock_root/build_artifacts/psutil_1667885909637/work
-pycodestyle @ file:///home/conda/feedstock_root/build_artifacts/pycodestyle_1669306857274/work
-pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
-pydocstyle @ file:///home/conda/feedstock_root/build_artifacts/pydocstyle_1621377123289/work
-pyflakes @ file:///home/conda/feedstock_root/build_artifacts/pyflakes_1669319921641/work
-pylint @ file:///home/conda/feedstock_root/build_artifacts/pylint_1671303993603/work
-pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1665350324128/work
-PySocks @ file:///tmp/build/80754af9/pysocks_1605305812635/work
-python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1626286286081/work
-python-docx @ file:///home/conda/feedstock_root/build_artifacts/python-docx_1622121039670/work
-pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1671365381334/work
-requests @ file:///opt/conda/conda-bld/requests_1657734628632/work
-six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
-snowballstemmer @ file:///home/conda/feedstock_root/build_artifacts/snowballstemmer_1637143057757/work
-tomli @ file:///home/conda/feedstock_root/build_artifacts/tomli_1644342247877/work
-tomlkit @ file:///home/conda/feedstock_root/build_artifacts/tomlkit_1666864188602/work
-typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1665144421445/work
-urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1669259737463/work
-wrapt @ file:///tmp/abs_c335821b-6e43-4504-9816-b1a52d3d3e1eel6uae8l/croots/recipe/wrapt_1657814400492/work
+pip==22.3.1
+platformdirs==2.6.2
+psutil==5.9.4
+pycodestyle==2.10.0
+pycparser==2.21
+pydocstyle==6.1.1
+pyflakes==3.0.1
+pylint==2.15.9
+pyOpenSSL==22.1.0
+PySocks==1.7.1
+python-dateutil==2.8.2
+python-docx==0.8.11
+pytz==2022.7
+requests==2.28.1
+setuptools==65.6.3
+six==1.16.0
+snowballstemmer==2.2.0
+tomli==2.0.1
+tomlkit==0.11.6
+typing_extensions==4.4.0
+urllib3==1.26.13
+wheel==0.38.4
+wrapt==1.14.1
