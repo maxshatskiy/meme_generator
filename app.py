@@ -31,7 +31,6 @@ def setup():
 
     return quotes, imgs
 
-
 quotes, imgs = setup()
 
 
@@ -57,10 +56,14 @@ def meme_post():
     body = request.form.get('body')
     author = request.form.get('author')
 
-    r = requests.get(img_url)
-    # i = Image.open(StringIO(r.content))
+    try:
+        r = requests.get(img_url)
+    except requests.exceptions.ConnectionError:
+        print("Invalid URL")
+        return render_template('meme_error.html')
+
     temp_file = './tmp/temp.jpg'
-    # i.save(temp_file)
+
     with open(temp_file, 'wb') as f:
         f.write(r.content)
 

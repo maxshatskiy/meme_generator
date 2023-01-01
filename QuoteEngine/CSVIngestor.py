@@ -12,7 +12,7 @@ class CSVIngestor(IngestorInterface):
 
     @classmethod
     def parse(cls, path: str) -> List[QuoteModel]:
-        """Parse quotes from the a file.
+        """Parse quotes from a file.
 
         :param path (str): path to a file
         :return List[Quotes]: list of quotes
